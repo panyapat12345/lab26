@@ -23,7 +23,6 @@ int main(){
 	loc = find(line_up.begin(),line_up.end(),"Bob");
 	line_up.insert(loc,"Oscar");
 	
-	//Write your code here
 	line_up.push_back("Luffy");
 	line_up.push_back("Sanji");
 	line_up.push_back("Nami");
@@ -33,7 +32,7 @@ int main(){
 
 	loc = find(line_up.begin(), line_up.end(),"Luffy");
 	loc++;
-	line_up.insert(loc, "Natutu");
+	line_up.insert(loc, "Narutu");
 
 	line_up.push_front("Prayath");
 
